@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git credentialsId: 'github-token', url: 'git@github.com:insane-avi/app_launch.git'
+                git credentialsId: 'github-token', url: 'https://github.com/insane-avi/app_launch.git'
             }
         }
 
